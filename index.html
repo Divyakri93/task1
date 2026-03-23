@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+        }
+
+        header {
+            background: #0f172a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #1e293b;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        section {
+            padding: 40px;
+        }
+
+        .hero {
+            background: #e2e8f0;
+            text-align: center;
+        }
+
+        .projects {
+            background: #f8fafc;
+        }
+
+        .project-card {
+            background: white;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .contact {
+            background: #e2e8f0;
+            text-align: center;
+        }
+
+        footer {
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            background: #38bdf8;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0284c7;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Divya Kumari</h1>
+        <p>Full Stack Developer | MERN Stack</p>
+    </header>
+
+    <!-- Navbar -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h2>Welcome to My Portfolio</h2>
+        <p>I build modern web applications and scalable backend systems.</p>
+        <br>
+        <button>Hire Me</button>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+
+        <div class="project-card">
+            <h3>Startup.Guru</h3>
+            <p>A platform connecting entrepreneurs with mentors for live sessions.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Call Booking System</h3>
+            <p>Users can book calls with mentors using video, voice, or chat.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Inventory Management</h3>
+            <p>Priority queue-based system to manage bookstore inventory.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: divya@example.com</p>
+        <p>Phone: +91 1234567890</p>
+        <br>
+        <button>Send Message</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Divya Kumari | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
